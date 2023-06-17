@@ -23,7 +23,7 @@ app.use("/new", userRouter);
 app.use("/doctor", doctorRouter);
 app.use(errorHandler);
 // app.use(express.static(`${__dirname}/uploads/`));
-app.use(express.static(`/uploads/`));
+app.use(express.static(`uploads`));
 app.use("/payment", paymentRouter);
 // Database Connection Starts Here....
 
